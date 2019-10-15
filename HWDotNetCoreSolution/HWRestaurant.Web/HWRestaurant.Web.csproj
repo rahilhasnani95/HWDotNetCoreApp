@@ -14,4 +14,9 @@
     <Folder Include="wwwroot\app\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HWRestaurant.Core\HWRestaurant.Core.csproj" />
+    <ProjectReference Include="..\HWRestaurant.Data\HWRestaurant.Data.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWRestaurant.Web", "HWRestaurant.Web\HWRestaurant.Web.csproj", "{831C6010-C74C-40D3-A5EF-D3B6EA803A82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HWRestaurant.Web", "HWRestaurant.Web\HWRestaurant.Web.csproj", "{831C6010-C74C-40D3-A5EF-D3B6EA803A82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWRestaurant.Core", "HWRestaurant.Core\HWRestaurant.Core.csproj", "{30420564-C14B-403F-AC69-554E41006744}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HWRestaurant.Core", "HWRestaurant.Core\HWRestaurant.Core.csproj", "{30420564-C14B-403F-AC69-554E41006744}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWRestaurant.API", "HWRestaurant.API\HWRestaurant.API.csproj", "{3D884021-B76D-481B-9A71-705C39039984}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HWRestaurant.API", "HWRestaurant.API\HWRestaurant.API.csproj", "{3D884021-B76D-481B-9A71-705C39039984}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWRestaurant.Data", "HWRestaurant.Data\HWRestaurant.Data.csproj", "{9175EE62-EB11-432A-B7F3-712D3A3A9AF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HWRestaurant.Data", "HWRestaurant.Data\HWRestaurant.Data.csproj", "{9175EE62-EB11-432A-B7F3-712D3A3A9AF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWRestaurantMVC.Web", "HWRestaurantMVC.Web\HWRestaurantMVC.Web.csproj", "{DB67EEBD-4AC1-4B04-BE4D-318AEA9C6400}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9175EE62-EB11-432A-B7F3-712D3A3A9AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9175EE62-EB11-432A-B7F3-712D3A3A9AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9175EE62-EB11-432A-B7F3-712D3A3A9AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB67EEBD-4AC1-4B04-BE4D-318AEA9C6400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB67EEBD-4AC1-4B04-BE4D-318AEA9C6400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB67EEBD-4AC1-4B04-BE4D-318AEA9C6400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB67EEBD-4AC1-4B04-BE4D-318AEA9C6400}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

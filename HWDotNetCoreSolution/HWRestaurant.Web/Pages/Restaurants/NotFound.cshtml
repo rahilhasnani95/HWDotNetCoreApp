@@ -1,0 +1,11 @@
+﻿@page "{restaurantId:int}"
+@model NotFoundModel
+@{
+    ViewData["Title"] = "NotFound";
+}
+
+    <h2> Restaurant ID @(ViewContext.RouteData.Values["restaurantId"]) Not Found</h2>
+
+<a asp-page="./List" class="btn btn-primary">See All Rest</a>
+
+
